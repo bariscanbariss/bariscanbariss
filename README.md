@@ -76,197 +76,80 @@ TypeScript ekosisteminde uzmanlaşmış, **Next.js**, **React Native** ve **full
 ## 💼 Projelerim
 
 > [!NOTE]
-> Ticari ve kurumsal projelerimin büyük çoğunluğu **gizlilik anlaşmaları (NDA)** kapsamında **private** depolarda tutulmaktadır. Bu projelerde gerçekleştirdiğim commit'ler, GitHub'ın **"Private contributions"** özelliği aracılığıyla katkı grafiğimde görünür hale getirilmiştir.
->
-> Demo, ekran kaydı veya kod review talebi için **[bariscanbaris33@gmail.com](mailto:bariscanbaris33@gmail.com)** adresinden iletişime geçin.
+> Ticari ve kurumsal projelerimin büyük çoğunluğu **gizlilik anlaşmaları (NDA)** kapsamında **private** depolarda tutulmaktadır. Bu projelerde gerçekleştirdiğim commit'ler, GitHub'ın **"Private contributions"** özelliği aracılığıyla katkı grafiğimde görünür hale getirilmiştir. Aşağıda aktif olarak yayında olan projelerimi inceleyebilirsiniz.
 
 ---
 
-### 🔧 Hizmetelden — Freelance Hizmet Platformu
-**Full-Stack SaaS · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/hizmetelden)
+### 📅 Kıbrıs Randevu — Kurumsal Randevu Yönetim Sistemi
+**Full-Stack SaaS · Canlı** | [Canlı Site →](https://kibrisrandevuonline.com)
 
-Hizmet arayanları ve hizmet sağlayıcıları (usta, tamirci, temizlikçi vb.) bir araya getiren, gerçek zamanlı teklif ve mesajlaşma sistemi bulunan Türk pazarı için özel geliştirilmiş freelance marketplace.
+İşletmeler için tasarlanmış güvenli ve ölçeklenebilir randevu ve süreç yönetim sistemi. WhatsApp entegrasyonu, bildirimler ve otomasyonlar içerir.
 
-```
-Next.js · Drizzle ORM · Supabase · AWS S3 · Framer Motion
-İyzico Payment · Vercel AI SDK · OpenAI · SMS OTP (NetGSM) · Cloudflare Turnstile
-```
 
-- 💼 İş ilanı oluşturma, teklif verme ve değerlendirme sistemi
-- 💬 Gerçek zamanlı mesajlaşma (chat conversations)
-- 💳 İyzico entegrasyonu ile ödeme akışı
-- 🤖 AI destekli teklif önerisi (Vercel AI SDK + OpenAI)
-- 📲 SMS OTP doğrulama (NetGSM)
-- 🛡️ Cloudflare Turnstile ile bot koruması
-- 🗄️ AWS S3 / Cloudflare R2 ile dosya depolama
-- 👮 Admin paneli: kullanıcı, sağlayıcı ve ban yönetimi
+- 📅 Gelişmiş takvim ve randevu yönetimi
+- 💬 Meta WhatsApp API ile otomatik randevu hatırlatmaları
+- 📧 Resend üzerinden gelişmiş email bildirimleri
+- ⚙️ N8N webhooks ile entegre otomasyon süreçleri
+- 🛡️ Güvenli VPS (Ubuntu, SSL) üzerinde production deployment
 
 ---
 
-### 🏨 Aripsas Hotel Management System
-**Enterprise Full-Stack · NDA Private** | [Kaynak Kod →](https://github.com/bariscanbariss/aripsas-otel)
+### 🛍️ Bangoo — Headless E-Commerce Storefront
+**Full-Stack E-Commerce · Canlı** | [Canlı Site →](https://bangoocyp.com)
 
-Bir konaklama işletmesinin ön büro, kasa, finans, cari hesap ve raporlama süreçlerini tek platformda yöneten kurumsal ERP uygulaması.
+Medusa.js headless e-ticaret altyapısı üzerine inşa edilmiş, Stripe ödeme entegrasyonu bulunan modern, yüksek performanslı mağaza arayüzü.
 
-```
-Next.js 16 · Prisma v7 · PostgreSQL · NextAuth v5 · Zustand v5
-Google Gemini AI · Recharts · XLSX · Docker · GitHub Actions CI/CD
-```
-
-- 💰 Kasa, cari hesap, fatura ve gider modülleri
-- 🤖 Google Gemini AI ile finansal analiz ve raporlama
-- 📊 Recharts ile interaktif analitik dashboard
-- 📁 Excel toplu veri aktarımı (XLSX import/export)
-- 🐳 Docker + GitHub Actions CI/CD pipeline
-
-> 🎥 Demo için [bariscanbaris33@gmail.com](mailto:bariscanbaris33@gmail.com?subject=Aripsas%20Hotel%20Demo) adresinden iletişime geçin
-
----
-
-### 🎨 Aripsas Hotel — Animasyonlu Landing Page
-**Frontend Showcase · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/aripsas-otel-design)
-
-Framer Motion ve Lenis smooth scroll ile geliştirilmiş, otel web sitesi için yüksek animasyonlu modern landing page.
-
-```
-Next.js 16 · Framer Motion · Lenis (smooth scroll) · shadcn/ui · Tailwind CSS v4
-```
-
-- 🎞️ Framer Motion ile sayfa geçişi ve scroll animasyonları
-- 🖱️ Lenis ile buttery-smooth scroll deneyimi
-- 📱 Fully responsive mobil uyumlu tasarım
-- ♿ Radix UI ile erişilebilir bileşenler
-
----
-
-### 🛍️ Bangoo Frontend — Headless E-Commerce Storefront
-**Full-Stack E-Commerce · NDA Private** | [Kaynak Kod →](https://github.com/bariscanbariss/bangoofrontenddev)
-
-Medusa.js headless e-ticaret altyapısı üzerine inşa edilmiş, Stripe ödeme entegrasyonu bulunan modern mağaza arayüzü.
-
-```
-Next.js 15 · Medusa.js SDK · Stripe · Turbopack · Tailwind CSS
-Docker · Nginx · PostgreSQL · GitHub Actions
-```
 
 - 🛒 Medusa.js ile tam headless commerce entegrasyonu
-- 💳 Stripe ile ödeme akışı
+- 💳 Stripe ile güvenilir ve hızlı ödeme akışı
 - ⚡ Turbopack ile hızlandırılmış build süreci
 - 🐳 Docker + Nginx production deployment
 
-> 🎥 Demo için [bariscanbaris33@gmail.com](mailto:bariscanbaris33@gmail.com?subject=Bangoo%20Frontend%20Demo) adresinden iletişime geçin
-
 ---
 
-### 📱 Bangoo Mobile — Cross-Platform E-Commerce App
-**React Native · Expo · NDA Private** | [Kaynak Kod →](https://github.com/bariscanbariss/bangoolastapp)
+### ☕ Flat Black Coffees — Kurumsal Web Sitesi & E-Ticaret
+**Full-Stack · Client Project · Canlı** | [Canlı Site →](https://flatblackcoffees.com)
 
-Medusa.js headless e-ticaret altyapısıyla bağlı, iOS ve Android için geliştirilmiş modern alışveriş uygulaması.
+Flat Black Coffees markası için modern web teknolojileri ile geliştirilmiş, kullanıcı dostu ve şık arayüze sahip kurumsal web / e-ticaret platformu.
 
-```
-React Native 0.82 · Expo 54 · TanStack Query v5 · NativeWind
-Medusa.js · Reanimated v4 · Fluent i18n (TR/EN) · Jest
-```
 
-- ⚡ TanStack Query v5 ile optimistic updates
-- 🌍 Mozilla Fluent ile çok dilli destek (TR/EN)
-- 🎨 Reanimated v4 ile 60fps smooth animasyonlar
-- 🧪 Jest test suite ile test altyapısı
-
-> 🎥 Demo için [bariscanbaris33@gmail.com](mailto:bariscanbaris33@gmail.com?subject=Bangoo%20Mobile%20Demo) adresinden iletişime geçin
-
----
-
-### 📦 Fix App — Mobile E-Commerce App (v2)
-**React Native · Expo · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/fixapp)
-
-Medusa.js headless commerce altyapısı üzerine geliştirilmiş, iOS ve Android için ikinci nesil mobil alışveriş uygulaması.
-
-```
-React Native · Expo · Medusa.js · NativeWind · TypeScript
-```
-
-- 🛒 Ürün listeleme, sepet ve checkout akışı
-- 🏠 Adres yönetimi ve sipariş takibi
-- ❤️ Favoriler sistemi
-- 🔔 Bildirim sistemi
-- 📦 Koleksiyon ve kategori sayfaları
-
----
-
-### 🌳 Life Tree — Gamified Personal Development Tracker
-**Full-Stack · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/life-tree)
-
-D&D tarzı stat sistemi, 13 aylık özel takvim ve kademeli görev sistemi ile kişisel gelişimi gamify eden web uygulaması.
-
-```
-Next.js 16 · React 19 · Supabase (PostgreSQL + Auth + RLS)
-Three.js · React Three Fiber · Recharts · shadcn/ui
-```
-
-- 🎮 7 temel stat sistemi (Mind, Art, Music, Tech, Career, Social, Health)
-- 📅 13 aylık özel takvim sistemi (364 gün = 13 × 28 gün)
-- 🌐 Three.js + React Three Fiber ile 3D görselleştirme
-- 📈 XP & Level sistemi ile motivasyon mekanizmaları
-- 🔒 Supabase RLS ile satır seviyesi güvenlik
+- 🎨 Marka kimliğini yansıtan modern ve clean tasarım
+- 📱 Yüksek performanslı ve fully responsive (mobil uyumlu) yapı
+- ⚡ SEO dostu mimari ve hızlı sayfa yükleme süreleri
 
 ---
 
 ### 🍺 Pickle Pub — Admin Panel & Menu Management
-**Full-Stack · Client Project · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/pickle-pub-admin-panel)
+**Full-Stack · Client Project · Canlı** | [Canlı Site →](https://picklepubcy.com)
 
 Bir pub işletmesi için geliştirilmiş menü ve içerik yönetim sistemi. Cloudinary ile görsel yönetim, Supabase ile gerçek zamanlı veri.
 
-```
-Next.js 16 · Supabase (PostgreSQL + Storage) · Prisma
-Cloudinary · shadcn/ui · Tailwind CSS · Anthropic AI
-```
 
 - 🖼️ Cloudinary ile CDN destekli resim yükleme
-- 🗂️ Kategori, ürün, indirim ve aktivite CRUD
+- 🗂️ Kategori, ürün, indirim ve aktivite CRUD işlemleri
 - 🔒 Middleware tabanlı admin authentication
-- 🎠 Popüler ürünler için otomatik slider
-
----
-
-### 📸 Su Visions — Photo Book Platform
-**Full-Stack · NDA Private** | [Kaynak Kod →](https://github.com/bariscanbariss/suvisions)
-
-Fotoğraf kitabı siparişi ve yönetim platformu. Admin paneli, ürün kataloğu ve backend API servisleri içeren monorepo yapısı.
-
-```
-Monorepo yapısı · Backend API servisleri · Admin paneli · Makefile
-```
-
-> 🎥 Demo için [bariscanbaris33@gmail.com](mailto:bariscanbaris33@gmail.com?subject=Su%20Visions%20Demo) adresinden iletişime geçin
+- 🎠 Popüler ürünler için otomatik slider yapısı
 
 ---
 
 ### ⚖️ Narsen Hukuk — Avukatlık Bürosu Web Sitesi
-**Frontend · Client Project · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/narsen-hukuk)
+**Frontend · Client Project · Canlı** | [Canlı Site →](https://narsenhukuk.com)
 
-Bir avukatlık bürosu için geliştirilmiş, modern ve profesyonel kurumsal web sitesi.
+Bir avukatlık bürosu için geliştirilmiş, modern, güvenilir ve profesyonel kurumsal web sitesi.
 
-```
-Next.js · TypeScript · Tailwind CSS · shadcn/ui
-```
 
 - 🎨 Temiz, profesyonel hukuk sektörü tasarımı
 - 📄 Hizmetler, hakkımda ve iletişim sayfaları
-- 📱 Tam responsive tasarım
-- ⚡ Next.js ile hızlı SSG
+- 📱 Tam responsive mobil uyumlu tasarım
+- ⚡ Next.js ile hızlı SSG (Static Site Generation)
 
 ---
 
 ### 🫏 Donkey Farm Cyprus — E-Commerce & Donation Platform
-**Full-Stack · Client Project · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/v0-donkey-milk-website)
+**Full-Stack · Client Project · Canlı** | [Canlı Site →](https://donkeyfarmcyprus.com)
 
 Kıbrıs'taki bir eşek çiftliği için ürün satışı, bağış sistemi ve email pazarlaması içeren full-stack web sitesi.
 
-```
-Next.js 16 · Supabase (PostgreSQL + Storage) · SendGrid
-nodemailer · jsPDF · pdf-lib · shadcn/ui · Tailwind CSS v4
-```
 
 - 🛒 Ürün kataloğu ve sipariş sistemi
 - 💝 Bağış paketleri ve bağış yönetimi
@@ -275,13 +158,55 @@ nodemailer · jsPDF · pdf-lib · shadcn/ui · Tailwind CSS v4
 
 ---
 
+### 🔧 Hizmetelden — Freelance Hizmet Platformu
+**Full-Stack SaaS · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/hizmetelden)
+
+Hizmet arayanları ve hizmet sağlayıcıları (usta, tamirci, temizlikçi vb.) bir araya getiren, gerçek zamanlı teklif ve mesajlaşma sistemi bulunan Türk pazarı için özel geliştirilmiş freelance marketplace.
+
+
+- 💼 İş ilanı oluşturma, teklif verme ve değerlendirme sistemi
+- 💬 Gerçek zamanlı mesajlaşma (chat conversations)
+- 💳 İyzico entegrasyonu ile ödeme akışı
+- 🤖 AI destekli teklif önerisi (Vercel AI SDK + OpenAI)
+
+---
+
+### 🌳 Life Tree — Gamified Personal Development Tracker
+**Full-Stack · Public** | [Kaynak Kod →](https://github.com/bariscanbariss/life-tree)
+
+D&D tarzı stat sistemi, 13 aylık özel takvim ve kademeli görev sistemi ile kişisel gelişimi gamify eden web uygulaması.
+
+
+- 🎮 7 temel stat sistemi ve seviye mekanikleri
+- 📅 13 aylık özel takvim sistemi (364 gün)
+- 🌐 Three.js + React Three Fiber ile 3D görselleştirme
+
+---
+
+### 🏨 Aripsas Hotel Management System
+**Enterprise Full-Stack · NDA Private** | *Demo İçin İletişime Geçin*
+
+Bir konaklama işletmesinin ön büro, kasa, finans, cari hesap ve raporlama süreçlerini tek platformda yöneten kurumsal ERP uygulaması.
+
+
+---
+
+### 📸 Su Visions — Photo Book Platform
+**Full-Stack · NDA Private** | *Demo İçin İletişime Geçin*
+
+Fotoğraf kitabı siparişi ve yönetim platformu. Admin paneli, ürün kataloğu ve backend API servisleri içeren kapsamlı monorepo yapısı.
+
+---
+
 ## 📊 GitHub İstatistikleri
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bariscanbariss&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true)
+![GitHub Stats](https://github.com/bariscanbariss/bariscanbariss/blob/main/profile-3d-contrib/profile-night-rainbow.svg)
+*Yenilenen 3D istatistik eklentisi veya klasik stats panosu eklenebilir.*
+<br/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bariscanbariss&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
+![GitHub Stats Classic](https://github-readme-stats.vercel.app/api?username=bariscanbariss&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true)
 
 </div>
 
@@ -289,18 +214,17 @@ nodemailer · jsPDF · pdf-lib · shadcn/ui · Tailwind CSS v4
 
 ## 🤝 İletişim
 
-İş teklifleri, freelance projeler veya teknik sorular için:
+İş teklifleri, freelance projeler veya teknik sorular için benimle iletişime geçebilirsiniz:
 
 - 📧 **Email:** [bariscanbaris33@gmail.com](mailto:bariscanbaris33@gmail.com)
-
 - 🐙 **GitHub:** [github.com/bariscanbariss](https://github.com/bariscanbariss)
+- 💼 **LinkedIn:** [linkedin.com/in/bariscanbariss](https://linkedin.com/in/bariscanbariss)
 
 ---
 
 <div align="center">
 
-*"Ticari projelerimin büyük çoğunluğu NDA kapsamında private tutulmaktadır.*
-*Bu nedenle katkı grafiğim gerçek aktivitemi tam yansıtmayabilir.*
-*Ticari portföyüm için doğrudan iletişime geçebilirsiniz."*
+*"Ticari projelerimin büyük çoğunluğu yayında olup, kaynak kodları NDA kapsamında private tutulmaktadır.*
+*Detaylı portföy ve demolar için doğrudan iletişime geçebilirsiniz."*
 
 </div>
