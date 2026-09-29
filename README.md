@@ -107,6 +107,19 @@ Medusa.js headless e-ticaret altyapısı üzerine inşa edilmiş, Stripe ödeme 
 
 ---
 
+### 🍸 Keyfi Bar — Menü, Rezervasyon & Etkinlik Yönetimi
+**Full-Stack · Client Project · Canlı** | [Canlı Site →](https://keyfibar.com)
+
+Bir bar işletmesi için geliştirilmiş, menü, etkinlik duyuruları ve masa rezervasyonu içeren full-stack web sitesi ve admin paneli.
+
+
+- 🍹 Kokteyl, bira ve shot menüsü için admin panelinden yönetilebilir içerik
+- 📅 Masa rezervasyon sistemi ve etkinlik duyuruları
+- ☁️ Cloudflare R2 (S3 uyumlu) ile görsel depolama
+- 🐳 Docker + Nginx ile production deployment
+
+---
+
 ### ☕ Flat Black Coffees — Kurumsal Web Sitesi & E-Ticaret
 **Full-Stack · Client Project · Canlı** | [Canlı Site →](https://flatblackcoffees.com)
 
